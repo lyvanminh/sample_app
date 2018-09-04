@@ -1,6 +1,6 @@
 //= require action_cable
-//= require selt
-//= require tree ./chennels
+//= require_self
+//= require_tree ./channels
 (function() {
   this.App || (this.App = {});
 
