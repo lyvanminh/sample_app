@@ -2,18 +2,22 @@ en:
   title_home: "Home"
   title_help: "Help"
   title_about: "About"
+  title_about: "Contact"
   static_pages:
     home:
+      home_h: "Sample App"
       home_page: "This is the home page for the"
       rubytutorial: "Ruby on Rails Tutorial"
       sampe_aplication: "sample application."
     help:
+      help_h: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
       rails_help: "Rails Tutorial help section"
       to_get_help: ".To get help on this sample app, see the"
       bool: "book"
       screen_series: "screencast series"
     about:
+      about_h: "About"
       the: "the"
       and: "and"
       is: " is a"
@@ -23,3 +27,13 @@ en:
       to: "to teach web development with"
       ruby: "Ruby on Rails"
       about_pages: ". This is the sample application for the tutorial."
+  layouts:
+    footer:
+      contact_h: "Contact"
+      the: "The "
+      rubytutorial: "Ruby on Rails Tutorial"
+      by: "by "
+      f_name: "Michael Hartl"
+  helpers:
+    application_helper:
+      text: Ruby on Rails Tutorial Sample App"
