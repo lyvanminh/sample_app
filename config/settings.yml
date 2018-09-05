@@ -1,0 +1,11 @@
+enabled_news: ["en"]
+news:
+  news_host: "http://news.railstutorial.org"
+home:
+  home_railstutorial: "https://www.railstutorial.org/"
+help:
+  help_help: "http://www.railstutorial.org/help"
+  help_book: "http://www.railstutorial.org/book"
+footer:
+  footer_rubyturorial: "http://www.railstutorial.org/"
+  footer_name: "http://www.michaelhartl.com/"
