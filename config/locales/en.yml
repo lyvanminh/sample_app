@@ -2,7 +2,7 @@ en:
   title_home: "Home"
   title_help: "Help"
   title_about: "About"
-  title_about: "Contact"
+  title_contact: "Contact"
   static_pages:
     home:
       home_h: "Sample App"
@@ -27,6 +27,10 @@ en:
       to: "to teach web development with"
       ruby: "Ruby on Rails"
       about_pages: ". This is the sample application for the tutorial."
+    contact:
+      contact_h: "Contact"
+      contact_text: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
   layouts:
     footer:
       contact_h: "Contact"
