@@ -34,3 +34,18 @@ module SampleApp
     config.i18n.default_locale = :en
   end
 end
+
+module Appname
+  class Application < Rails::Application
+
+    Bundler.require(*Rails.groups)
+    Config::Integration::Rails::Railtie.preload
+
+    # ...
+
+    config.time_zone = Settings.time_zone
+
+    # ...
+
+  end
+end
