@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= t ".title" %></title>
-  </head>
-    <h1>About</h1>
-    <p>
-      <%= t ".the" %><a href="http://www.railstutorial.org/">
-      <em><% t ".railstutorial" %></em>
-      </a><%= t ".is" %>
-      <a href="http://www.railstutorial.org/book"><%= t ".book" %></a>
-      <%= t ".and" %>
-      <a href="http://screencasts.railstutorial.org/"><%= t ".screencast series" %></a>
-      <%= t ".to" %><a href="http://rubyonrails.org/"><% t ".ruby" %></a>
-      <%= t ".about_pages" %>
-    </p>
-</html>
+<% provide :title, t("title_about") %>
+<h1>About</h1>
+<p>
+  <%= t ".the" %><a href="http://www.railstutorial.org/">
+  <em><% t ".railstutorial" %></em>
+  </a><%= t ".is" %>
+  <a href="http://www.railstutorial.org/book"><%= t ".book" %></a>
+  <%= t ".and" %>
+  <a href="http://screencasts.railstutorial.org/"><%= t ".screencast series" %></a>
+  <%= t ".to" %><a href="http://rubyonrails.org/"><% t ".ruby" %></a>
+  <%= t ".about_pages" %>
+</p>

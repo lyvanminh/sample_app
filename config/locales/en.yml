@@ -1,4 +1,7 @@
 en:
+  title_home: "Home"
+  title_help: "Help"
+  title_about: "About"
   static_pages:
     home:
       home_page: "This is the home page for the"
@@ -11,7 +14,6 @@ en:
       bool: "book"
       screen_series: "screencast series"
     about:
-      title: "Ruby on Rails Tutorial Sample App"
       the: "the"
       and: "and"
       is: " is a"
@@ -21,8 +23,3 @@ en:
       to: "to teach web development with"
       ruby: "Ruby on Rails"
       about_pages: ". This is the sample application for the tutorial."
-  layouts:
-    application:
-      title: "Ruby on Rails Tutorial Sample App"
-
-

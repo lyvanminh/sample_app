@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= t ".title" %> | </title>
-  </head>
-    <h1>Sample App</h1>
-    <p>
-      <%= t ".home_page" %>
-      <a href="http://www.railstutorial.org/"><%= t ".rubytutorial" %></a>
-      <%= t ".sampe_aplication" %>
-    </p>
-</html>
+<% provide :title, t("title_home") %>
+<h1>Sample App</h1>
+<p>
+  <%= t ".home_page" %>
+  <a href="http://www.railstutorial.org/"><%= t ".rubytutorial" %></a>
+  <%= t ".sampe_aplication" %>
+</p>
