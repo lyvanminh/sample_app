@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= t ".the" %><%= link_to t(".rubytutorial"), 
+    Settings.footer.footer_rubyturorial %>
+    <%= t ".by" %><%= link_to t(".f_name"), Settings.footer.footer_name %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".f_about"), about_path %></li>
+      <li><%= link_to t(".contact_h"), contact_path %></li>
+      <li><%= link_to t(".new"), Settings.news.news_host %></li>
+    </ul>
+  </nav>
+</footer>
