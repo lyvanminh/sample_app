@@ -2,12 +2,14 @@ en:
   title_home: "Home"
   title_help: "Help"
   title_about: "About"
+  title_contact: "Contact"
   static_pages:
     home:
       home_h: "Sample App"
       home_page: "This is the home page for the"
       rubytutorial: "Ruby on Rails Tutorial"
       sampe_aplication: "sample application."
+      home_sign_up: "Sign up now!"
     help:
       help_h: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -26,6 +28,24 @@ en:
       to: "to teach web development with"
       ruby: "Ruby on Rails"
       about_pages: ". This is the sample application for the tutorial."
+    contact:
+      contact_h: "Contact"
+      contact_text: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+  layouts:
+    footer:
+      contact_h: "Contact"
+      the: "The "
+      rubytutorial: "Ruby on Rails Tutorial"
+      by: "by "
+      f_name: "Michael Hartl"
+      f_about: "About"
+      new: "News"
+    header:
+      h_sample_app: "sample app"
+      h_home: "Home"
+      h_help: "Help"
+      h_log_in: "Log in"
   helpers:
     application_helper:
       text: Ruby on Rails Tutorial Sample App"
