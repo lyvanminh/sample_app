@@ -9,3 +9,9 @@ help:
 footer:
   footer_rubyturorial: "http://www.railstutorial.org/"
   footer_name: "http://www.michaelhartl.com/"
+user:
+  name:
+    maximum50: "50"
+    maximum255: "255"
+  password:
+    minimum6: "6"
