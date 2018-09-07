@@ -50,3 +50,6 @@ en:
   helpers:
     application_helper:
       text: "Ruby on Rails Tutorial Sample App"
+  users:
+    new:
+      Sign_Up: "Sign Up"
