@@ -3,6 +3,7 @@ news:
   news_host: "http://news.railstutorial.org"
 home:
   home_railstutorial: "https://www.railstutorial.org/"
+  home_sign_up: "http://localhost:3000/signup"
 help:
   help_help: "http://www.railstutorial.org/help"
   help_book: "http://www.railstutorial.org/book"
@@ -11,7 +12,9 @@ footer:
   footer_name: "http://www.michaelhartl.com/"
 user:
   name:
-    maximum50: "50"
-    maximum255: "255"
+    maximum50: 50
+    maximum255: 255
   password:
-    minimum6: "6"
+    minimum6: 6
+users_helper:
+  user_size80: 80

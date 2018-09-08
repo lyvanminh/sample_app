@@ -3,11 +3,12 @@
   <h1><%= t ".home_h" %></h1>
   <p>
     <%= t ".home_page" %>
-    <a><%= link_to t(".rubytutorial"), Settings.home.home_railstutorial %></a>
+    <%= link_to t(".rubytutorial"), Settings.home.home_railstutorial %>
     <%= t ".sampe_aplication" %>
   </p>
 
-  <%= link_to t(".home_sign_up"), "#", class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".home_sign_up"), Settings.home.home_sign_up,
+    class: "btn btn-lg btn-primary" %>
 </div>
 
 <%= link_to image_tag("rails.png", alt: "Rails logo"), Settings.home.home_railstutorial%>
