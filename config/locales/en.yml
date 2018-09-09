@@ -3,6 +3,7 @@ en:
   title_help: "Help"
   title_about: "About"
   title_contact: "Contact"
+  title_signup: "Sign Up"
   static_pages:
     home:
       home_h: "Sample App"
@@ -52,4 +53,13 @@ en:
       text: "Ruby on Rails Tutorial Sample App"
   users:
     new:
-      Sign_Up: "Sign Up"
+      sign_up: "Sign up"
+      confirmation: "Confirmation"
+      create_account: "Create my account"
+  controllers:
+    users_controller:
+      welcome: "Welcome to the Sample App!"
+  shared:
+    error_messages:
+      text_shared: "The form contains "
+      error: "error"
