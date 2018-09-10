@@ -12,9 +12,11 @@ footer:
   footer_name: "http://www.michaelhartl.com/"
 user:
   name:
-    maximum50: 50
-    maximum255: 255
+    maximum: 50
+    maximum: 255
   password:
-    minimum6: 6
+    minimum: 6
 users_helper:
-  user_size80: 80
+  user_size: 80
+header:
+  header_login: "http://localhost:3000/login"
