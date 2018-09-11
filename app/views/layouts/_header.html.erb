@@ -6,7 +6,7 @@
         <li><%= link_to t(".h_home"), root_path %></li>
         <li><%= link_to t(".h_help"), help_path %></li>
         <% if logged_in? %>
-          <li><%= link_to t(".head_user"), "#" %></li>
+          <li><%= link_to current_user.name, "#" %></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <%= t ".head_acount" %><b class="caret"></b>
