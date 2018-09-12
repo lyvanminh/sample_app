@@ -100,6 +100,9 @@ en:
     micropost_form:
       compose_new: "Compose new micropost..."
       post: "Post"
+      error_image: "Maximum file size is 1MB. Please choose a smaller file."
+      change: "change"
+      micropost_picture: "#micropost_picture"
   sessions:
     new:
       log_in: "Log in"
@@ -155,6 +158,8 @@ en:
       you_sure: "You sure?"
     create:
       micropost_create: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
   models:
     micropost:
       should_be: "should be less than 5MB"
