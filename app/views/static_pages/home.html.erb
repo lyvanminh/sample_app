@@ -1,14 +1,31 @@
 <% provide :title, t("title_home") %>
-<div class="center jumbotron">
-  <h1><%= t ".home_h" %></h1>
-  <p>
-    <%= t ".home_page" %>
-    <%= link_to t(".rubytutorial"), Settings.home.home_railstutorial %>
-    <%= t ".sampe_aplication" %>
-  </p>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <div class="user_info">
+        <%= render "shared/user_info" %>
+      </div>
+      <div class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </div>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t ".micropost_feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t ".home_h" %></h1>
+    <p>
+      <%= t ".home_page" %>
+      <%= link_to t(".rubytutorial"), Settings.home.home_railstutorial %>
+      <%= t ".sampe_aplication" %>
+    </p>
 
-  <%= link_to t(".home_sign_up"), Settings.home.home_sign_up,
-    class: "btn btn-lg btn-primary" %>
-</div>
+    <%= link_to t(".home_sign_up"), Settings.home.home_sign_up,
+      class: "btn btn-lg btn-primary" %>
+  </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"), Settings.home.home_railstutorial%>
+  <%= link_to image_tag("rails.png", alt: "Rails logo"), Settings.home.home_railstutorial%>
+<% end %>
