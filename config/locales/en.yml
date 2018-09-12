@@ -5,6 +5,8 @@ en:
   title_contact: "Contact"
   title_signup: "Sign Up"
   title_login: "Log in"
+  title_edit: "Edit user"
+  title_index: "Index"
   static_pages:
     home:
       home_h: "Sample App"
@@ -62,9 +64,21 @@ en:
       sign_up: "Sign up"
       confirmation: "Confirmation"
       create_account: "Create my account"
+    user:
+      user_del: "Delete"
+      user_confirm: "You sure?"
+    edit:
+      change_avatar: "Change Avatar"
+      update_profile: "Update your profile"
+      save_change: "Save changes"
+    index:
+      all_user: All users
   controllers:
     users_controller:
-      welcome: "Welcome to the Sample App!"    
+      welcome: "Welcome to the Sample App!"
+      login: "Please log in."
+      del_user: "User deleted"
+      don't_find: "Don't find"
   shared:
     error_messages:
       text_shared: "The form contains "

@@ -18,5 +18,11 @@ user:
     minimum: 6
 users_helper:
   user_size: 80
+  image_size: "75x80"
 header:
   header_login: "http://localhost:3000/login"
+users:
+  edit:
+    change_avatar: "http://gravatar.com/emails"
+users_controller:
+  page_number: 6
