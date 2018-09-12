@@ -73,12 +73,17 @@ en:
       save_change: "Save changes"
     index:
       all_user: All users
+    create:
+      check_mail: "Please check your email to activate your account."
   controllers:
     users_controller:
       welcome: "Welcome to the Sample App!"
       login: "Please log in."
       del_user: "User deleted"
       don't_find: "Don't find"
+    account_activations_controller:
+      account_active: "Account activated!"
+      invalid_active: "Invalid activation link"
   shared:
     error_messages:
       text_shared: "The form contains "
@@ -92,5 +97,20 @@ en:
     create:
       login_success: "Login success!"
       login_error: "Invalid email/password combiation"
+      account_active: "Account not activated. Check your email for the activation link. "
     destroy:
       logout_success: "You are logout success!"
+  user_mailer:
+    account_activation:
+      text: "Sample App"
+      hi: "Hi"
+      welcome_sample_app: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Activate"
+    password_reset:
+      user: "User"
+      find_me: "find me in"
+  mailer:
+    user_mailer:
+      account_acctive: "Account activation"
+      hi: "Hi"
+      mail_to: "to@example.org"
