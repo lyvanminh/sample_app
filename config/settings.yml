@@ -26,3 +26,6 @@ users:
     change_avatar: "http://gravatar.com/emails"
 users_controller:
   page_number: 6
+password_resets:
+  edit:
+    edit_hour: 1

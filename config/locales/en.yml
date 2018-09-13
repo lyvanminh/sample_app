@@ -7,6 +7,8 @@ en:
   title_login: "Log in"
   title_edit: "Edit user"
   title_index: "Index"
+  title_password_forgot: "Forgot password"
+  title_password_reset: "Reset password"
   static_pages:
     home:
       home_h: "Sample App"
@@ -94,6 +96,7 @@ en:
       sign_up: "Sign up now!"
       new_user: "New user? "
       remember_login: "Remember me on this computer"
+      forgot_password: "(forgot password)"
     create:
       login_success: "Login success!"
       login_error: "Invalid email/password combiation"
@@ -109,8 +112,28 @@ en:
     password_reset:
       user: "User"
       find_me: "find me in"
+      text_reset: "If you did not request your password to be reset, please ignore this email and
+                    your password will stay as it is."
+      this_link: "This link will expire in two hours."
+      reset_password: "Reset password"
+      to_click: "To reset your password click the link below:"
   mailer:
     user_mailer:
       account_acctive: "Account activation"
-      hi: "Hi"
-      mail_to: "to@example.org"
+      password_reset: "Password reset"
+  password_resets:
+    create:
+      email_sent: "Email sent with password reset instructions"
+      not_found_email: "Email address not found"
+    edit:
+      reset_password: "Reset password"
+      update_password: "Update password"
+      confirmation: "Confirmation"
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    update:
+      empty: "can't be empty"
+      reset_success: "Password has been reset."
+    check_expiration:
+      password_expired: "Password reset has expired."
