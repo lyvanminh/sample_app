@@ -29,3 +29,10 @@ users_controller:
 password_resets:
   edit:
     edit_hour: 1
+models:
+  micropost:
+    content_maximum: 140
+microposts:
+  micropost:
+    gravata_size: 50
+

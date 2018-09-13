@@ -77,6 +77,8 @@ en:
       all_user: All users
     create:
       check_mail: "Please check your email to activate your account."
+    show:
+      microposts: "Microposts "
   controllers:
     users_controller:
       welcome: "Welcome to the Sample App!"
@@ -137,3 +139,7 @@ en:
       reset_success: "Password has been reset."
     check_expiration:
       password_expired: "Password reset has expired."
+  microposts:
+    micropost:
+      post: "Posted"
+      ago: " ago."
