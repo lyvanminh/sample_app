@@ -32,6 +32,7 @@ password_resets:
 models:
   micropost:
     content_maximum: 140
+    image_size: 1
 microposts:
   micropost:
     gravata_size: 50
