@@ -16,6 +16,7 @@ en:
       rubytutorial: "Ruby on Rails Tutorial"
       sampe_aplication: "sample application."
       home_sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     help:
       help_h: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -82,16 +83,23 @@ en:
   controllers:
     users_controller:
       welcome: "Welcome to the Sample App!"
-      login: "Please log in."
       del_user: "User deleted"
       don't_find: "Don't find"
     account_activations_controller:
       account_active: "Account activated!"
       invalid_active: "Invalid activation link"
+    application_controller:
+      login: "Please log in."
   shared:
     error_messages:
       text_shared: "The form contains "
       error: "error"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose_new: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       log_in: "Log in"
@@ -143,3 +151,10 @@ en:
     micropost:
       post: "Posted"
       ago: " ago."
+      del: "delete"
+      you_sure: "You sure?"
+    create:
+      micropost_create: "Micropost created!"
+  models:
+    micropost:
+      should_be: "should be less than 5MB"
