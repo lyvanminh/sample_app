@@ -1,7 +1,12 @@
 <%= form_for @micropost do |f| %>
   <%= render "shared/error_messages", object: f.object %>
-  <div class = "field">
+  <div class="field">
     <%= f.text_area :content, placeholder: t(".compose_new") %>
   </div>
   <%= f.submit t(".post"), class: "btn btn-primary" %>
+
+  <%= f.file_field :picture, accept: "image/jpeg,image/gif,image/png", class: "picture" %>
 <% end %>
+
+<%= hidden_field_tag :maxsizeimage, Settings.models.micropost.image_size %>
+<%= hidden_field_tag :message_error, t(".error_image") %>
