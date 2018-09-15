@@ -80,6 +80,10 @@ en:
       check_mail: "Please check your email to activate your account."
     show:
       microposts: "Microposts "
+    follow:
+      follow_submit: "Follow"
+    unfollow:
+      unfollow_submit: "Unfollow"
   controllers:
     users_controller:
       welcome: "Welcome to the Sample App!"
@@ -103,6 +107,9 @@ en:
       error_image: "Maximum file size is 1MB. Please choose a smaller file."
       change: "change"
       micropost_picture: "#micropost_picture"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       log_in: "Log in"
